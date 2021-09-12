@@ -1,0 +1,11 @@
+apiVersion: 1.0.0
+metadata:
+  name: java-crw-test
+projects:
+  - name: java-crw-test
+    source:
+      type: git
+      location: 'https://github.com/dkwon17/java-crw-test.git'
+components:
+  - type: chePlugin
+    id: redhat/java/latest
